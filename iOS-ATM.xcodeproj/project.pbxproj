@@ -7,23 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		801A19AC24BFEBFB003014A2 /* StatusMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801A19AB24BFEBFB003014A2 /* StatusMessage.swift */; };
+		801A19AE24C00DDD003014A2 /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801A19AD24C00DDD003014A2 /* Formatter.swift */; };
+		801A19B024C01534003014A2 /* HistoryDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801A19AF24C01534003014A2 /* HistoryDB.swift */; };
+		801A19B224C016F4003014A2 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801A19B124C016F4003014A2 /* HistoryTableViewController.swift */; };
+		801A19B524C02CAF003014A2 /* AddHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801A19B424C02CAF003014A2 /* AddHistoryViewController.swift */; };
+		8046802524C0DB9A00FE2934 /* DetailHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8046802424C0DB9A00FE2934 /* DetailHistoryViewController.swift */; };
+		8065B0FD24C1C53F001AA5FC /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8065B0FC24C1C53F001AA5FC /* Types.swift */; };
+		80A82D6F24C0EF1300490D85 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A82D6E24C0EF1300490D85 /* History.swift */; };
 		80F9AFD724BEC0FD00CF462C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F9AFD624BEC0FD00CF462C /* AppDelegate.swift */; };
 		80F9AFD924BEC0FD00CF462C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F9AFD824BEC0FD00CF462C /* SceneDelegate.swift */; };
-		80F9AFDB24BEC0FD00CF462C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F9AFDA24BEC0FD00CF462C /* ViewController.swift */; };
+		80F9AFDB24BEC0FD00CF462C /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F9AFDA24BEC0FD00CF462C /* PasswordViewController.swift */; };
 		80F9AFDE24BEC0FD00CF462C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80F9AFDC24BEC0FD00CF462C /* Main.storyboard */; };
 		80F9AFE024BEC10000CF462C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80F9AFDF24BEC10000CF462C /* Assets.xcassets */; };
 		80F9AFE324BEC10000CF462C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80F9AFE124BEC10000CF462C /* LaunchScreen.storyboard */; };
+		80F9AFEB24BEC7F100CF462C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F9AFEA24BEC7F100CF462C /* MenuViewController.swift */; };
+		80F9AFF024BEC8BD00CF462C /* DepositViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F9AFEF24BEC8BD00CF462C /* DepositViewController.swift */; };
+		80F9AFF224BEC8D800CF462C /* WithdrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F9AFF124BEC8D800CF462C /* WithdrawViewController.swift */; };
+		80F9AFF424BEC8EE00CF462C /* BalanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F9AFF324BEC8EE00CF462C /* BalanceViewController.swift */; };
+		80F9AFF724BECF2400CF462C /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F9AFF624BECF2400CF462C /* Password.swift */; };
+		80F9AFF924BEE15B00CF462C /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F9AFF824BEE15B00CF462C /* Account.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		801A19AB24BFEBFB003014A2 /* StatusMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMessage.swift; sourceTree = "<group>"; };
+		801A19AD24C00DDD003014A2 /* Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
+		801A19AF24C01534003014A2 /* HistoryDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDB.swift; sourceTree = "<group>"; };
+		801A19B124C016F4003014A2 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		801A19B424C02CAF003014A2 /* AddHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHistoryViewController.swift; sourceTree = "<group>"; };
+		8046802424C0DB9A00FE2934 /* DetailHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHistoryViewController.swift; sourceTree = "<group>"; };
+		8065B0FC24C1C53F001AA5FC /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		80A82D6E24C0EF1300490D85 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		80F9AFD324BEC0FD00CF462C /* iOS-ATM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-ATM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F9AFD624BEC0FD00CF462C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80F9AFD824BEC0FD00CF462C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		80F9AFDA24BEC0FD00CF462C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80F9AFDA24BEC0FD00CF462C /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
 		80F9AFDD24BEC0FD00CF462C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80F9AFDF24BEC10000CF462C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80F9AFE224BEC10000CF462C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80F9AFE424BEC10000CF462C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80F9AFEA24BEC7F100CF462C /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		80F9AFEF24BEC8BD00CF462C /* DepositViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositViewController.swift; sourceTree = "<group>"; };
+		80F9AFF124BEC8D800CF462C /* WithdrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawViewController.swift; sourceTree = "<group>"; };
+		80F9AFF324BEC8EE00CF462C /* BalanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceViewController.swift; sourceTree = "<group>"; };
+		80F9AFF624BECF2400CF462C /* Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password.swift; sourceTree = "<group>"; };
+		80F9AFF824BEE15B00CF462C /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +65,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		801A19B324C02C7C003014A2 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				801A19B424C02CAF003014A2 /* AddHistoryViewController.swift */,
+				8046802424C0DB9A00FE2934 /* DetailHistoryViewController.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
 		80F9AFCA24BEC0FD00CF462C = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +93,60 @@
 		80F9AFD524BEC0FD00CF462C /* iOS-ATM */ = {
 			isa = PBXGroup;
 			children = (
+				80F9AFF524BEC90F00CF462C /* Models */,
+				80F9AFEC24BEC80600CF462C /* ViewControllers */,
 				80F9AFD624BEC0FD00CF462C /* AppDelegate.swift */,
 				80F9AFD824BEC0FD00CF462C /* SceneDelegate.swift */,
-				80F9AFDA24BEC0FD00CF462C /* ViewController.swift */,
 				80F9AFDC24BEC0FD00CF462C /* Main.storyboard */,
 				80F9AFDF24BEC10000CF462C /* Assets.xcassets */,
 				80F9AFE124BEC10000CF462C /* LaunchScreen.storyboard */,
 				80F9AFE424BEC10000CF462C /* Info.plist */,
 			);
 			path = "iOS-ATM";
+			sourceTree = "<group>";
+		};
+		80F9AFEC24BEC80600CF462C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				80F9AFDA24BEC0FD00CF462C /* PasswordViewController.swift */,
+				80F9AFED24BEC81A00CF462C /* Menu */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		80F9AFED24BEC81A00CF462C /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				80F9AFEA24BEC7F100CF462C /* MenuViewController.swift */,
+				80F9AFEE24BEC87900CF462C /* Operations */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		80F9AFEE24BEC87900CF462C /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				80F9AFEF24BEC8BD00CF462C /* DepositViewController.swift */,
+				80F9AFF124BEC8D800CF462C /* WithdrawViewController.swift */,
+				80F9AFF324BEC8EE00CF462C /* BalanceViewController.swift */,
+				801A19B124C016F4003014A2 /* HistoryTableViewController.swift */,
+				801A19B324C02C7C003014A2 /* History */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		80F9AFF524BEC90F00CF462C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				80F9AFF624BECF2400CF462C /* Password.swift */,
+				80F9AFF824BEE15B00CF462C /* Account.swift */,
+				801A19AB24BFEBFB003014A2 /* StatusMessage.swift */,
+				801A19AD24C00DDD003014A2 /* Formatter.swift */,
+				801A19AF24C01534003014A2 /* HistoryDB.swift */,
+				80A82D6E24C0EF1300490D85 /* History.swift */,
+				8065B0FC24C1C53F001AA5FC /* Types.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +220,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80F9AFDB24BEC0FD00CF462C /* ViewController.swift in Sources */,
+				801A19AE24C00DDD003014A2 /* Formatter.swift in Sources */,
+				80F9AFDB24BEC0FD00CF462C /* PasswordViewController.swift in Sources */,
+				8046802524C0DB9A00FE2934 /* DetailHistoryViewController.swift in Sources */,
+				8065B0FD24C1C53F001AA5FC /* Types.swift in Sources */,
 				80F9AFD724BEC0FD00CF462C /* AppDelegate.swift in Sources */,
 				80F9AFD924BEC0FD00CF462C /* SceneDelegate.swift in Sources */,
+				80F9AFEB24BEC7F100CF462C /* MenuViewController.swift in Sources */,
+				801A19B524C02CAF003014A2 /* AddHistoryViewController.swift in Sources */,
+				80F9AFF724BECF2400CF462C /* Password.swift in Sources */,
+				801A19B024C01534003014A2 /* HistoryDB.swift in Sources */,
+				80F9AFF924BEE15B00CF462C /* Account.swift in Sources */,
+				80A82D6F24C0EF1300490D85 /* History.swift in Sources */,
+				80F9AFF224BEC8D800CF462C /* WithdrawViewController.swift in Sources */,
+				801A19AC24BFEBFB003014A2 /* StatusMessage.swift in Sources */,
+				80F9AFF424BEC8EE00CF462C /* BalanceViewController.swift in Sources */,
+				80F9AFF024BEC8BD00CF462C /* DepositViewController.swift in Sources */,
+				801A19B224C016F4003014A2 /* HistoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
